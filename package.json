@@ -1,0 +1,16 @@
+{
+  "name": "curl-to-postman-multiple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "curl-to-postmanv2": "0.0.5",
+    "postman-collection": "^3.5.4",
+    "yargs": "^14.2.0"
+  }
+}

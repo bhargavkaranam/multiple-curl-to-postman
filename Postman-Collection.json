@@ -1,0 +1,101 @@
+{
+    "item": [
+        {
+            "id": "89ea2f1f-5ed6-483a-a7e7-fbae8ca32e97",
+            "name": "http://postman-echo.get?foo=bar&batman=joker",
+            "request": {
+                "name": "http://postman-echo.get?foo=bar&batman=joker",
+                "description": {
+                    "content": "Generated from a curl request: \ncurl -X GET   'http://postman-echo.get?foo=bar&batman=joker'   -H 'Postman-Token: 1a88e7fd-5b67-434c-aaf8-90ed9bfc3d46'   -H 'cache-control: no-cache'   -H 'content: application/json'",
+                    "type": "text/plain"
+                },
+                "url": {
+                    "protocol": "http",
+                    "host": [
+                        "postman-echo",
+                        "get"
+                    ],
+                    "query": [
+                        {
+                            "key": "foo",
+                            "value": "bar"
+                        },
+                        {
+                            "key": "batman",
+                            "value": "joker"
+                        }
+                    ],
+                    "variable": []
+                },
+                "header": [
+                    {
+                        "key": "Postman-Token",
+                        "value": "1a88e7fd-5b67-434c-aaf8-90ed9bfc3d46"
+                    },
+                    {
+                        "key": "cache-control",
+                        "value": "no-cache"
+                    },
+                    {
+                        "key": "content",
+                        "value": "application/json"
+                    }
+                ],
+                "method": "GET",
+                "body": {}
+            },
+            "response": [],
+            "event": []
+        },
+        {
+            "id": "017efcda-f5e0-4e8c-bd2f-dee5032f8f9b",
+            "name": "http://postman-echo.com/post",
+            "request": {
+                "name": "http://postman-echo.com/post",
+                "description": {
+                    "content": "Generated from a curl request: \ncurl -X POST   http://postman-echo.com/post   -H 'Content-Type: application/json'   -H 'Postman-Token: e6a3a3d7-4a55-4dd8-a080-6ad7e425a9b0'   -H 'cache-control: no-cache'   -d '{\n\ta: 1,\n\tb: 2\n  }'",
+                    "type": "text/plain"
+                },
+                "url": {
+                    "protocol": "http",
+                    "path": [
+                        "post"
+                    ],
+                    "host": [
+                        "postman-echo",
+                        "com"
+                    ],
+                    "query": [],
+                    "variable": []
+                },
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Postman-Token",
+                        "value": "e6a3a3d7-4a55-4dd8-a080-6ad7e425a9b0"
+                    },
+                    {
+                        "key": "cache-control",
+                        "value": "no-cache"
+                    }
+                ],
+                "method": "POST",
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n\ta: 1,\n\tb: 2\n  }"
+                }
+            },
+            "response": [],
+            "event": []
+        }
+    ],
+    "event": [],
+    "variable": [],
+    "info": {
+        "_postman_id": "c52fae67-955c-41c8-93d7-e86fece46797",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    }
+}
