@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "curl-to-postmanv2": "0.0.5",
-    "postman-collection": "^3.5.4",
+    "postman-collection": "^3.6.11",
     "yargs": "^14.2.0"
   }
 }
